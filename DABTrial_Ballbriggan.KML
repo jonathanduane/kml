@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>Ballbriggan</name>
+	<GroundOverlay>
+		<name>RF Analysis</name>
+		<color>6effffff</color>
+		<Icon>
+			<href>DABTrial_Ballbriggan.png</href>
+			<viewBoundScale>0.90</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>54.373426</north>
+			<south>52.907223</south>
+			<east>-5.387521</east>
+			<west>-7.541225</west>
+		</LatLonBox>
+	</GroundOverlay>
+	<StyleMap id="msn_open-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_open-diamond">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle></ListStyle>
+	</Style>
+	<Style id="sh_open-diamond">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle></ListStyle>
+	</Style>
+	<ScreenOverlay id="Legend">
+		<name>Palette</name>
+		<description>dBuV/m / dBm</description>
+		<Icon>
+			<href>DABTrialLeg_Ballbriggan.png</href>
+		</Icon>
+		<description>dBuV/m / dBm</description>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/></ScreenOverlay>
+	<Placemark>
+		<name>Ballbriggan</name>
+		<description>longitude: -6.1678
+latitude: 53.5820
+altitude: 93
+address: BALBRIGGAN005
+frequency 192.352000 MHz
+power: 300.000000 W
+azimuth: 0.0 °
+antenna: 20.00 m
+info: IRL_DUB1_7C_005
+network ID: IRL DAB R DUB AREA 1
+model: DEFAULTx
+</description>
+		<LookAt>
+			<longitude>-6.167800</longitude>
+			<latitude>53.582000</latitude>
+			<altitude>93.00</altitude>
+			<frequency>192.352000</frequency>
+			<radiated_power>300.000000</radiated_power>
+			<tilt>0.0</tilt>
+			<azimuth>0.0</azimuth>
+			<antenna_height>20.00</antenna_height>
+			<horizontal_pattern>0000   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0</horizontal_pattern>
+			<attached_coverage>DABTrial_Ballbriggan_Ballbriggan.png</attached_coverage>
+			<threshold>34 dBuV/m</threshold>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+			<info1>IRL_DUB1_7C_005</info1>
+			<info2></info2>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.167800,53.582000,93.000000</coordinates>
+		</Point>
+		</Placemark>
+</Document>
+</kml>

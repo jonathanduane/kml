@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>Saggart</name>
+	<GroundOverlay>
+		<name>RF Analysis</name>
+		<color>6effffff</color>
+		<Icon>
+			<href>DABTrial_Saggart.png</href>
+			<viewBoundScale>0.90</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>54.831208</north>
+			<south>52.118245</south>
+			<east>-5.357422</east>
+			<west>-9.398162</west>
+		</LatLonBox>
+	</GroundOverlay>
+	<StyleMap id="msn_open-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_open-diamond">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle></ListStyle>
+	</Style>
+	<Style id="sh_open-diamond">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle></ListStyle>
+	</Style>
+	<ScreenOverlay id="Legend">
+		<name>Palette</name>
+		<description>dBuV/m / dBm</description>
+		<Icon>
+			<href>DABTrialLeg_Saggart.png</href>
+		</Icon>
+		<description>dBuV/m / dBm</description>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/></ScreenOverlay>
+	<Placemark>
+		<name>Saggart</name>
+		<description>longitude: -6.4759
+latitude: 53.2464
+altitude: 402
+address: SAGGART HILL002
+frequency 215.072000 MHz
+power: 4000.000000 W
+azimuth: 0.0 °
+antenna: 36.00 m
+info: IRL_DUB_10D
+network ID: IRL DAB R DUB AREA 1
+model: DEFAULTx
+</description>
+		<LookAt>
+			<longitude>-6.475930</longitude>
+			<latitude>53.246430</latitude>
+			<altitude>402.00</altitude>
+			<frequency>215.072000</frequency>
+			<radiated_power>4000.000000</radiated_power>
+			<tilt>0.0</tilt>
+			<azimuth>0.0</azimuth>
+			<antenna_height>36.00</antenna_height>
+			<horizontal_pattern>0000   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0</horizontal_pattern>
+			<attached_coverage>DABTrial_Saggart_Saggart.png</attached_coverage>
+			<threshold>34 dBuV/m</threshold>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+			<info1>IRL_DUB_10D</info1>
+			<info2></info2>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.475930,53.246430,402.000000</coordinates>
+		</Point>
+		</Placemark>
+</Document>
+</kml>

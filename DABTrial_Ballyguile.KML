@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>Ballyguile</name>
+	<GroundOverlay>
+		<name>RF Analysis</name>
+		<color>6effffff</color>
+		<Icon>
+			<href>DABTrial_Ballyguile.png</href>
+			<viewBoundScale>0.90</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>54.215214</north>
+			<south>51.848084</south>
+			<east>-5.398119</east>
+			<west>-8.187008</west>
+		</LatLonBox>
+	</GroundOverlay>
+	<StyleMap id="msn_open-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_open-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_open-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_open-diamond">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle></ListStyle>
+	</Style>
+	<Style id="sh_open-diamond">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle></ListStyle>
+	</Style>
+	<ScreenOverlay id="Legend">
+		<name>Palette</name>
+		<description>dBuV/m / dBm</description>
+		<Icon>
+			<href>DABTrialLeg_Ballyguile.png</href>
+		</Icon>
+		<description>dBuV/m / dBm</description>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/></ScreenOverlay>
+	<Placemark>
+		<name>Ballyguile</name>
+		<description>longitude: -6.0444
+latitude: 52.9681
+altitude: 181
+address: BALLYGUILE004
+frequency 192.352000 MHz
+power: 4000.000000 W
+azimuth: 0.0 °
+antenna: 50.00 m
+info: IRL_DUB1_7C
+network ID: IRL DAB R DUB AREA 1
+model: DEFAULTx
+</description>
+		<LookAt>
+			<longitude>-6.044400</longitude>
+			<latitude>52.968055</latitude>
+			<altitude>181.00</altitude>
+			<frequency>192.352000</frequency>
+			<radiated_power>4000.000000</radiated_power>
+			<tilt>0.0</tilt>
+			<azimuth>0.0</azimuth>
+			<antenna_height>50.00</antenna_height>
+			<horizontal_pattern>0000   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0</horizontal_pattern>
+			<attached_coverage>DABTrial_Ballyguile_Ballyguile.png</attached_coverage>
+			<threshold>34 dBuV/m</threshold>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+			<info1>IRL_DUB1_7C</info1>
+			<info2></info2>
+		<styleUrl>#msn_open-diamond</styleUrl>
+		<Point>
+			<coordinates>-6.044400,52.968055,181.000000</coordinates>
+		</Point>
+		</Placemark>
+</Document>
+</kml>
